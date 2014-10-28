@@ -1,0 +1,21 @@
+{
+    "name": "smartcoding-pl/image-workshop-bundle",
+    "description": "Integration of the ImageWorkshop library into Symfony",
+    "keywords": ["ImageWorkshop"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krzysztof Jończyk",
+            "email": "zelazowy@smartcoding.pl"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "2.5.*",
+        "sybio/image-workshop": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {"SmartCodingPl\\ImageWorkshopBundle": ""}
+    },
+    "target-dir": "SmartCodingPl/ImageWorkshopBundle"
+}
